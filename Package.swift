@@ -5,12 +5,12 @@ import PackageDescription
 
 ///
 let package = Package(
-    name: "UserDefaultsDisplayModule",
+    name: "FlameStride",
     platforms: [.macOS(.v12), .iOS(.v15), .watchOS(.v6), .tvOS(.v13)],
     products: [
         .library(
-            name: "UserDefaultsDisplayModule",
-            targets: ["UserDefaultsDisplayModule"]
+            name: "FlameStride",
+            targets: ["FlameStride"]
         ),
     ],
     dependencies: [],
@@ -18,14 +18,14 @@ let package = Package(
         
         ///
         .target(
-            name: "UserDefaultsDisplayModule",
+            name: "FlameStride",
             dependencies: []
         ),
         
         ///
         .testTarget(
-            name: "UserDefaultsDisplayModule-tests",
-            dependencies: ["UserDefaultsDisplayModule"]
+            name: "FlameStride-tests",
+            dependencies: ["FlameStride"]
         ),
     ]
 )
