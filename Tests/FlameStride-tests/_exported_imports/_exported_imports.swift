@@ -6,4 +6,4 @@
 //
 
 ///
-@_exported import UserDefaultsDisplayModule
+@_exported import FlameStride
