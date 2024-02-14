@@ -6,7 +6,7 @@ import PackageDescription
 ///
 let package = Package(
     name: "FlameStride",
-    platforms: [.macOS(.v12), .iOS(.v15), .watchOS(.v6), .tvOS(.v13)],
+    platforms: [.macOS(.v12), .iOS(.v15), .watchOS(.v7), .tvOS(.v14)],
     products: [
         .library(
             name: "FlameStride",
